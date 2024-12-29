@@ -1,0 +1,15 @@
+{
+  "originHash" : "fbee552c1fa4b5d2ac4e636693ec9ec3b9ec8f0362a27a9c6ea1e6fa76da5358",
+  "pins" : [
+    {
+      "identity" : "domain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/batrinho/Domain.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "414aec8d941d057eccdcb548ea7afdc3f5dcc89e"
+      }
+    }
+  ],
+  "version" : 3
+}
