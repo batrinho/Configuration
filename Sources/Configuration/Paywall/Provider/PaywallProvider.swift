@@ -8,12 +8,12 @@
 import Foundation
 import Domain
 
-final class PaywallProvider: PaywallProviderProtocol {
-    func getPrice() -> String {
+public final class PaywallProvider: PaywallProviderProtocol {
+    public func getPrice() -> String {
         "9.99$/month"
     }
     
-    func getFeaturesList() -> [Feature] {
+    public func getFeaturesList() -> [Feature] {
         return [
             Feature(imageString: "waveform.path", featureTitle: "Voice-Activated Scrolling", featureDescription: "Hands-free scrolling controlled by your voice or speed of speech."),
             Feature(imageString: "textformat.size", featureTitle: "Customizable Text Display", featureDescription: "Advanced options for font size, color, background, and layout for better readability."),
