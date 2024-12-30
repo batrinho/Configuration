@@ -9,6 +9,8 @@ import Foundation
 import Domain
 
 public final class PaywallProvider: PaywallProviderProtocol {
+    public init() {}
+    
     public func getPrice() -> String {
         "9.99$/month"
     }
